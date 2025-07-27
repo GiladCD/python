@@ -17,6 +17,6 @@ def sort_words(words_dict, n):
 
 file_path = "C:\\Users\\gilad\\Downloads\\11-0.txt"
 x = read_file_content_to_dictionary(file_path)
-n = int(input("Enter N: "))
+n = int(input("enter N: "))
 sorted_x = sort_words(x, n)
 print(sorted_x)
