@@ -13,7 +13,6 @@ def read_file_content_to_dictionary(file_path):
 def sort_words(words_dict, n):
     sorted_items = sorted(words_dict.items(), key=lambda item: item[1], reverse=True)
     top_n_items = sorted_items[:n]
-    
     return dict(top_n_items)
 
 file_path = "C:\\Users\\gilad\\Downloads\\11-0.txt"
